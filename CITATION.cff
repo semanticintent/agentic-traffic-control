@@ -1,0 +1,115 @@
+cff-version: 1.2.0
+message: "If you use or reference this work, please cite it as below."
+title: "Agentic Traffic Control: Orchestrating AI Agents Across Enterprise Systems"
+abstract: >
+  As organizations move from single-agent to multi-agent enterprise deployments,
+  the absence of orchestration methodology produces the agentic equivalent of
+  gridlock: agents blocking each other, corrupting shared state, producing
+  unattributable output. This paper proposes Agentic Traffic Control (ATC) —
+  a methodology for orchestrating multiple AI agents across enterprise systems
+  using five operational layers (signal control, lane separation, junction
+  protocol, priority routing, audit attribution) plus a learning layer (GESA)
+  that optimises pipeline configuration across episodes. The central architectural
+  choice is between the traffic light model (central orchestrator, predictable,
+  human-gated) and the roundabout model (local negotiation, resilient, higher
+  throughput). The pattern is already present in working production systems —
+  Project Phoenix, Strata, EMBER, Wake Intelligence, and Rune Protocol — without
+  yet having a unified name. This document names it.
+authors:
+  - family-names: "Shatny"
+    given-names: "Michael"
+    orcid: "https://orcid.org/0009-0006-2011-3258"
+version: 0.1.0
+date-released: 2026-06-03
+license: CC-BY-4.0
+repository-code: "https://github.com/semanticintent/agentic-traffic-control"
+url: "https://semanticintent.dev/papers/agentic-traffic-control"
+keywords:
+  - agentic-systems
+  - multi-agent-orchestration
+  - enterprise-ai
+  - traffic-control
+  - signal-layer
+  - lane-separation
+  - junction-protocol
+  - audit-attribution
+  - priority-routing
+  - gesa
+  - simulated-annealing
+  - episodic-memory
+  - phoenix-runtime
+  - strata
+  - ember
+  - wake-intelligence
+  - rune-protocol
+  - cormorant-foraging
+references:
+  - type: article
+    authors:
+      - family-names: "Shatny"
+        given-names: "Michael"
+        orcid: "https://orcid.org/0009-0006-2011-3258"
+    title: "Semantic Intent as Governance Primitive for Agentic Systems"
+    year: 2026
+    doi: "10.5281/zenodo.20436088"
+    url: "https://semanticintent.dev/papers/governance-primitive"
+  - type: article
+    authors:
+      - family-names: "Shatny"
+        given-names: "Michael"
+        orcid: "https://orcid.org/0009-0006-2011-3258"
+    title: "Semantic Intent as Single Source of Truth: Immutable Governance for AI-Assisted Development"
+    year: 2025
+    doi: "10.5281/zenodo.17114972"
+    url: "https://semanticintent.dev/papers/semantic-intent-ssot"
+  - type: software
+    authors:
+      - family-names: "Shatny"
+        given-names: "Michael"
+        orcid: "https://orcid.org/0009-0006-2011-3258"
+    title: "GESA: Generative Episodic Simulated Annealing — The Optimization Layer"
+    year: 2026
+    url: "https://gesa.semanticintent.dev"
+  - type: software
+    authors:
+      - family-names: "Shatny"
+        given-names: "Michael"
+        orcid: "https://orcid.org/0009-0006-2011-3258"
+    title: "Phoenix Runtime: A Seven-Agent Legacy Modernization Pipeline"
+    year: 2026
+    url: "https://phoenix.semanticintent.dev"
+  - type: software
+    authors:
+      - family-names: "Shatny"
+        given-names: "Michael"
+        orcid: "https://orcid.org/0009-0006-2011-3258"
+    title: "Wake Intelligence MCP: A Five-Layer Temporal Intelligence Server for AI Agents"
+    year: 2026
+    url: "https://wake.semanticintent.dev"
+  - type: article
+    authors:
+      - family-names: "Shatny"
+        given-names: "Michael"
+        orcid: "https://orcid.org/0009-0006-2011-3258"
+    title: "Rune Protocol: A Reactive Binding Grammar for Human-AI Collaborative Systems"
+    year: 2026
+    doi: "10.5281/zenodo.20007883"
+    url: "https://github.com/semanticintent/rune-protocol"
+  - type: software
+    authors:
+      - family-names: "Shatny"
+        given-names: "Michael"
+        orcid: "https://orcid.org/0009-0006-2011-3258"
+    title: "EMBER: A Semantic Intent Language for Legacy System Modernisation"
+    year: 2026
+    doi: "10.5281/zenodo.19751387"
+    url: "https://github.com/semanticintent/ember"
+  - type: software
+    authors:
+      - family-names: "Shatny"
+        given-names: "Michael"
+        orcid: "https://orcid.org/0009-0006-2011-3258"
+    title: "Strata: A Database Archaeology Methodology for Legacy SQL Systems"
+    year: 2026
+    doi: "10.5281/zenodo.19768151"
+    url: "https://github.com/semanticintent/strata-runtime"
